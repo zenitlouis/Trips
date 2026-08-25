@@ -16,7 +16,7 @@
     .intro{max-width:620px;margin:0;color:var(--muted);font-size:18px;line-height:1.6}
     .trips{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
     .trip{position:relative;display:flex;min-height:300px;padding:28px;overflow:hidden;border-radius:26px;background:linear-gradient(135deg,var(--green),var(--green2));color:white;text-decoration:none;box-shadow:0 18px 45px #1b352520;transition:transform .2s ease,box-shadow .2s ease}
-    .trip:hover{transform:translateY(-4px);box-shadow:0 24px 55px #1b352535}
+    .trip:hover{transform:translateY(-4px);box-shadow:0 24px 55px #1b352535}\n    .trip.alt{background:linear-gradient(135deg,#173f31,#285d46)}\n    .trip.alt .meta{color:#d8ef75;opacity:1}
     .trip:focus-visible{outline:4px solid var(--gold);outline-offset:4px}
     .trip:after{content:"";position:absolute;right:-80px;bottom:-90px;width:250px;height:250px;border:1px solid #ffffff25;border-radius:50%;box-shadow:0 0 0 38px #ffffff0b,0 0 0 76px #ffffff08}
     .content{position:relative;z-index:1;display:flex;flex-direction:column;width:100%}
@@ -44,6 +44,14 @@
           <h2>Hradec Králové a okolie</h2>
           <p class="route">Pernštejn · Dvůr Králové · Safari Park · Kuks</p>
           <div class="open">Otvoriť itinerár <span class="arrow" aria-hidden="true">→</span></div>
+        </div>
+      </a>
+      <a class="trip alt" href="hradec-kralove-alternativa.html">
+        <div class="content">
+          <div class="meta">Nová alternatíva · interaktívna</div>
+          <h2>Hradec Králové — alternatíva</h2>
+          <p class="route">Modernejší itinerár · prepínanie dní · prehľadný rozpočet</p>
+          <div class="open">Otvoriť alternatívu <span class="arrow" aria-hidden="true">→</span></div>
         </div>
       </a>
       <a class="trip" href="buduce.html">
